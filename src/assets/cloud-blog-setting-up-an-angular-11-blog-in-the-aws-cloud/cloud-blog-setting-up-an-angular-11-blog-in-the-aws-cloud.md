@@ -168,7 +168,7 @@ export class EntryListComponent implements OnInit {
       <div class="title">
         <a routerLink="/blog/{{ entry.slug }}">{{ entry.title }}</a>
       </div>
-      <div class="published">Published on {{ entry.date | date }} by Marc</div>
+      <!-- <div class="published">Published on {{ entry.date | date }} by Marc</div> -->
     </li>
   </ol>
 </div>
