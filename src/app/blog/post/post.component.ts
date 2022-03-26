@@ -6,7 +6,7 @@ import { ActivatedRoute } from '@angular/router';
 @Component({
   selector: 'app-post',
   templateUrl: './post.component.html',
-  styleUrls: ['./post.component.scss'],
+  styleUrls: ['./post.component.less'],
   encapsulation: ViewEncapsulation.None,
 })
 export class PostComponent implements OnInit {

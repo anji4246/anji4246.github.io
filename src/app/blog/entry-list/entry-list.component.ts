@@ -4,7 +4,7 @@ import { entries, Post } from 'config/entries';
 @Component({
   selector: 'app-entry-list',
   templateUrl: './entry-list.component.html',
-  styleUrls: ['./entry-list.component.scss'],
+  styleUrls: ['./entry-list.component.less'],
 })
 export class EntryListComponent implements OnInit {
   entries: Post[] = entries;
