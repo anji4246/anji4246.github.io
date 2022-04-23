@@ -15,6 +15,7 @@ export class PostComponent implements OnInit {
   constructor(private route: ActivatedRoute) {}
 
   ngOnInit() {
+    console.log('post triggered');
     this.post$ = this.route.params.pipe(
       map((params) => `/assets/${params['id']}/${params['id']}.md`)
     );
